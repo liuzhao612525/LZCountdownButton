@@ -16,6 +16,8 @@
 		1DC95C6F1CEEE4BA004BB7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC95C6D1CEEE4BA004BB7B1 /* LaunchScreen.storyboard */; };
 		1DC95C7A1CEEE4BB004BB7B1 /* LZCountdownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95C791CEEE4BB004BB7B1 /* LZCountdownButtonTests.m */; };
 		1DC95C851CEEE4BB004BB7B1 /* LZCountdownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95C841CEEE4BB004BB7B1 /* LZCountdownButtonUITests.m */; };
+		1DC95C971CEEE516004BB7B1 /* LZButtonCountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95C941CEEE516004BB7B1 /* LZButtonCountdownManager.m */; };
+		1DC95C981CEEE516004BB7B1 /* LZCountdownTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95C961CEEE516004BB7B1 /* LZCountdownTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1DC95C801CEEE4BB004BB7B1 /* LZCountdownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCountdownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC95C841CEEE4BB004BB7B1 /* LZCountdownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCountdownButtonUITests.m; sourceTree = "<group>"; };
 		1DC95C861CEEE4BB004BB7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC95C931CEEE516004BB7B1 /* LZButtonCountdownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZButtonCountdownManager.h; sourceTree = "<group>"; };
+		1DC95C941CEEE516004BB7B1 /* LZButtonCountdownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZButtonCountdownManager.m; sourceTree = "<group>"; };
+		1DC95C951CEEE516004BB7B1 /* LZCountdownTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCountdownTask.h; sourceTree = "<group>"; };
+		1DC95C961CEEE516004BB7B1 /* LZCountdownTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCountdownTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		1DC95C5B1CEEE4BA004BB7B1 /* LZCountdownButton */ = {
 			isa = PBXGroup;
 			children = (
+				1DC95C921CEEE501004BB7B1 /* Class */,
 				1DC95C5F1CEEE4BA004BB7B1 /* AppDelegate.h */,
 				1DC95C601CEEE4BA004BB7B1 /* AppDelegate.m */,
 				1DC95C621CEEE4BA004BB7B1 /* ViewController.h */,
@@ -141,6 +148,17 @@
 				1DC95C861CEEE4BB004BB7B1 /* Info.plist */,
 			);
 			path = LZCountdownButtonUITests;
+			sourceTree = "<group>";
+		};
+		1DC95C921CEEE501004BB7B1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1DC95C931CEEE516004BB7B1 /* LZButtonCountdownManager.h */,
+				1DC95C941CEEE516004BB7B1 /* LZButtonCountdownManager.m */,
+				1DC95C951CEEE516004BB7B1 /* LZCountdownTask.h */,
+				1DC95C961CEEE516004BB7B1 /* LZCountdownTask.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC95C641CEEE4BA004BB7B1 /* ViewController.m in Sources */,
+				1DC95C971CEEE516004BB7B1 /* LZButtonCountdownManager.m in Sources */,
 				1DC95C6A1CEEE4BA004BB7B1 /* LZCountdownButton.xcdatamodeld in Sources */,
 				1DC95C611CEEE4BA004BB7B1 /* AppDelegate.m in Sources */,
+				1DC95C981CEEE516004BB7B1 /* LZCountdownTask.m in Sources */,
 				1DC95C5E1CEEE4BA004BB7B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
